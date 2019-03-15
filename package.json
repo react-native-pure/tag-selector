@@ -1,6 +1,6 @@
 {
   "name": "@react-native-pure/tag-selector",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React Native tag-selector",
   "main": "index.js",
   "scripts": {
