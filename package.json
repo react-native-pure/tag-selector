@@ -1,0 +1,37 @@
+{
+  "name": "@react-native-pure/tag-selector",
+  "version": "0.0.1",
+  "description": "React Native tag-selector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cm": "git-cz",
+    "doc": "react-docgen-markdown build ./ --output doc --ignore node_modules && react-docgen-markdown readme README.md --src doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-pure/tag-selector.git"
+  },
+  "author": "m860",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-native-pure/tag-selector/issues"
+  },
+  "homepage": "https://github.com/react-native-pure/tag-selector#readme",
+  "devDependencies": {
+    "@m860/react-docgen-markdown": "0.0.1",
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "react": "^16.8.4",
+    "react-native": "^0.59.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
